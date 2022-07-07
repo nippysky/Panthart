@@ -1,0 +1,16 @@
+.main {
+    padding: 2rem 4rem;
+    width: 100%;
+}
+
+.headText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 2rem 1rem;
+    }
+}

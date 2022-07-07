@@ -1,0 +1,22 @@
+.mainDiv {
+    background-color: #fff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 10rem;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 0 5rem 0;
+    z-index: 0;
+
+}
+
+.text {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    padding: 0 4rem;
+}

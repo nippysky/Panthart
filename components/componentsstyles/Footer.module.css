@@ -1,0 +1,73 @@
+.footerRow {
+    background-color: #EFF0F5;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerColumn {
+    width: 25%;
+}
+
+.footerRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footText p {
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+
+.footLink:hover {
+    text-decoration: underline;
+    color: #2e3192;
+}
+
+.horRule {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-color: #2e3192;
+    border-top: 1px;
+}
+
+.horRuleDiv {
+    padding: 0 2rem;
+    background-color: #EFF0F5;
+}
+
+.footSpan {
+    color: #2e3192;
+}
+
+.footLogo {
+    position: relative;
+    left: 0;
+    padding: 50% 0;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .footerColumn {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .footerRow {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .footLogo {
+        display: none;
+    }
+
+    .footText {
+        margin-top: 1rem;
+    }
+
+
+}

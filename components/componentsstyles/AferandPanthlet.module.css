@@ -1,0 +1,32 @@
+.column {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 8rem;
+    padding: 0 4rem;
+    margin: 1rem 0 15rem 0;
+}
+
+
+.text {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        padding: 0 2rem;
+        margin: 0 0 10rem 0;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}

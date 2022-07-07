@@ -1,0 +1,55 @@
+.headButton {
+    padding: 0 4rem;
+}
+
+
+.headText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    padding: 0 4rem;
+    text-align: justify;
+}
+
+
+.divRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 7rem;
+    padding: 0 4rem;
+    margin: 5rem 0;
+}
+
+.divColumn {
+    width: 50%;
+}
+
+.divText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .headText {
+        padding: 0 2rem;
+    }
+
+    .headButton {
+        padding: 0 2rem;
+    }
+
+    .divRow {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .divColumn {
+        width: 100%;
+    }
+
+    .divForm {
+        padding: 0 1rem;
+    }
+}

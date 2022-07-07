@@ -1,0 +1,64 @@
+.headText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    padding: 0 4rem;
+    text-align: justify;
+}
+
+.accordionFaq {
+    padding: 0 12rem;
+    margin: 5rem 0;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    color: black;
+}
+
+.accordionFaq>div {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accordionFaqHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.accordionFaqHeading+h3 {
+    color: black;
+    font-weight: 600;
+}
+
+.accordionFaq p {
+    margin: 0px;
+    padding-bottom: 30px;
+    color: black;
+    line-height: 1.85;
+    text-align: justify;
+}
+
+.imgIcon {
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .headText {
+        padding: 0 2rem;
+    }
+
+    .RoadOneDiv {
+        padding: 0 2rem;
+    }
+
+    .accordionFaq {
+        padding: 0 2rem;
+    }
+}

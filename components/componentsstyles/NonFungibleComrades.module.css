@@ -1,0 +1,35 @@
+.section {
+    margin: 10rem 0;
+}
+
+.divRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 5rem;
+    padding: 0 4rem;
+    margin: 1rem 0;
+}
+
+.divColumn {
+    width: 50%;
+}
+
+.divText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .divRow {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .divColumn {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

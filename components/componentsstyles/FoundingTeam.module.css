@@ -1,0 +1,58 @@
+.rowTop {
+    padding: 0 4rem;
+}
+
+.text {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: -1rem;
+}
+
+.row {
+    display: flex;
+    column-gap: 10rem;
+    margin: 5rem 0 10rem 0;
+    padding: 0 4rem;
+}
+
+.column {
+    width: 50%;
+}
+
+.socialDiv {
+    margin: 2rem 0 0 -1.6rem;
+}
+
+.socialIcons:hover {
+    background-color: #2e3192;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.teamCard {
+    background-color: white;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.cardDetails {
+    padding: 0 2rem 1rem 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .rowTop {
+        padding: 0 2rem;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 0 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

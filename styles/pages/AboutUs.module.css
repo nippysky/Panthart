@@ -1,0 +1,54 @@
+.spanButton {
+    color: #2e3192;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+.headText {
+    line-height: 1.85;
+    font-size: 1.2rem;
+    padding: 0 4rem;
+    text-align: justify;
+}
+
+.vmRow {
+    margin: 5rem 0;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 5rem;
+
+}
+
+.vmColumn {
+    width: 50%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+}
+
+.vmText {
+    line-height: 1.75;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .headText {
+        padding: 0 2rem;
+    }
+
+    .vmRow {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    .vmColumn {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}
