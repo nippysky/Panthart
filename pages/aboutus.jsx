@@ -29,11 +29,9 @@ export default function AboutUs() {
       <OtherPagesHeader imageURL="/images/aboutus/Who-We-Are.svg" />
       <div>
         <p className={classes.headText}>
-          Panthart is an agency of creative and innovative minds, bringing you
-          into the world of nft and blockchain technology. We Promote 'Made By
-          Afer'. There are enough creative minds, and ample talents looking for
-          opportunities. We believe that nobody can make our lives better than
-          we can make ourselves.
+          Panthart is Africa's first Non-Fungible Token Agency. A group of
+          creative and innovative minds, bringing you into the world of
+          blockchain technology. We Promote 'Made By Afer'.
         </p>
       </div>
 
@@ -41,15 +39,15 @@ export default function AboutUs() {
         <div className={classes.vmColumn}>
           <h3>Vision</h3>
           <p className={classes.vmText}>
-            To be the biggest NFT agency in Africa and conglomorate of 'Made By
-            Afer' projects.
+            To be the biggest NFT agency in the world, and conglomorate of 'Made
+            By Afer' projects.
           </p>
         </div>
         <div className={classes.vmColumn}>
           <h3>Mission</h3>
           <p className={classes.vmText}>
-            We strive to offer projects and service that are 'Made By Afer', on
-            the global stage.
+            We strive to offer original projects and service that are 'Made By
+            Afer', on the global stage.
           </p>
         </div>
       </div>

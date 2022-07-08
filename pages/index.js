@@ -16,13 +16,12 @@ export default function Home() {
     <section>
       <section className={classes.mainSection}>
         <div className={classes.mainDiv}>
-          <h2 className={classes.h1Header}>The AFER Awakening</h2>
+          <h2 className={classes.h1Header}>
+            Africa's First<br></br> Non-Fungible Token Agency
+          </h2>
           <div>
             <p className={classes.pHeader}>
-              Panthart Is an Agency, bringing you into the world of nft and
-              blockchain technology. We encorage Afer men to put out more
-              businesses, and innovations on the global stage. There is no limit
-              to what you can do or achieve. Take pride in
+              Bringing Blockchain Technology To You. We Promote
               <span style={{ color: "#2e3192", fontWeight: "bold" }}>
                 &nbsp; Made By Afer
               </span>
@@ -44,8 +43,9 @@ export default function Home() {
           <h2>The Creativity Is Plenty.</h2>
           <p className={classes.divText}>
             Unique concepts and ideas with creative executions. We will work
-            with like-mind individuals. Whether it's in finding solutions to our
-            problems or implementing a new feature on an existing platform.
+            with like-mind individuals, and carry out our business differently
+            and beyond satisfactory. There is plenty to explore in this space.
+            We do things our own way.
           </p>
           <Newsletter />
         </div>
@@ -54,15 +54,15 @@ export default function Home() {
             <div className={classes.divVM}>
               <h3>Vision</h3>
               <p className={classes.vmText}>
-                To be the biggest NFT agency in Africa and conglomorate of 'Made
-                By Afer' projects.
+                To be the biggest NFT agency in the world, and conglomorate of
+                'Made By Afer' projects.
               </p>
             </div>
             <div className={classes.divVM}>
               <h3>Mission</h3>
               <p className={classes.vmText}>
-                We strive to offer projects and service that are 'Made By Afer',
-                on the global stage.
+                We strive to offer original projects and service that are 'Made
+                By Afer', on the global stage.
               </p>
             </div>
           </div>

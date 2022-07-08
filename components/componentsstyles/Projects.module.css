@@ -25,12 +25,19 @@
     text-align: center;
 }
 
+.buttonHolder {
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 30%;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
     column-gap: 4rem;
     width: 100%;
-    margin: 8rem 0 4rem 0;
+    margin: 5rem 0 4rem 0;
 }
 
 .column {
@@ -41,6 +48,12 @@
     line-height: 1.75;
     font-size: 1rem;
     text-align: justify;
+}
+
+.ptext {
+    font-size: 1.2rem;
+    padding: 0 10rem 0 0;
+    line-height: 1.85;
 }
 
 .mainImage {
@@ -85,5 +98,9 @@
     .column {
         width: 100%;
         margin-bottom: 5rem;
+    }
+
+    .ptext {
+        padding: 0;
     }
 }

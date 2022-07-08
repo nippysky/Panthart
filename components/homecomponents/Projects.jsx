@@ -9,19 +9,29 @@ export default function Projects() {
       <div className={classes.mainDiv}>
         <div className={classes.titleDiv}>
           <h2>Are You Planning A Project?</h2>
-          <p style={{ fontSize: "1.2rem" }}>
-            Make Us Your Partner, and let us build for you. We can help out in
-            vital areas:
+          <p className={classes.ptext}>
+            We have a small form you can fill. Simply just drop a message and
+            give us the full gist. Make us your partner, let us build for you
+            and with you. We can help out in vital areas:
           </p>
         </div>
 
         <div className={classes.buttonDiv}>
-          <Button link="/careers">
-            <span style={{ fontSize: "1.2rem" }}>Drop A Message</span>
-            <span style={{ position: "relative", top: "6px", left: "5px" }}>
-              <HiArrowNarrowRight size={25} />
-            </span>
-          </Button>
+          <div className={classes.buttonHolder}>
+            <Button link="/careers">
+              <span
+                style={{
+                  fontSize: "1.2rem",
+                  textAlign: "center",
+                }}
+              >
+                Drop A Message
+              </span>
+              <span style={{ position: "relative", top: "6px", left: "5px" }}>
+                <HiArrowNarrowRight size={25} />
+              </span>
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -40,7 +50,7 @@ export default function Projects() {
             imageURL="/images/Community.svg"
             title="Community & Awarness"
             text="Creating a community platform, where your members could interact
-            and unite in the web 3 space. Moving your project forward, creating brand awareness and publicity."
+            and unite in the web 3 space. Comrades are your follow come influencers Moving your project forward, creating brand awareness and publicity."
           />
         </div>
 

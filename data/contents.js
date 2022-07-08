@@ -23,7 +23,7 @@ const aboutTitleAndDes = [
     desOne:
       "In all started in the boom of the NFT space. I wanted a platform where African artiste can showcase their art and crafts and also sell them as as NFT, with the knowing that our culture and art is very rich and vast. Afer creators were not well represented as only but a few creatives were privilaged. There is also a fact that so many people do not and still don't understand the concept of NFTs and how to navigate through it. That was when the idea of Panthart was born.",
     desTwo:
-      "I was basically looking for a name to call this new brand and I needed it to at least relate to our culture. For one reason or the other Black Panther came to the mind, but I could obviously not use that as the name for this new brand. Long story short, I ended up combining the words 'Panther', and 'Art', to get Panthart. There could be more besides just showcasing our art and artist, we can start to showcase or our fashion, our tech, and other areas of our lives. So here we are today, taking it one step at a time.",
+      "I was basically looking for a name to call this new brand and I needed it to at least relate to our culture. For one reason or the other Black Panther came to the mind, but I could obviously not use that as the name for this new brand. Long story short, I ended up combining the words 'Panther', and 'Art', to get Panthart. There could be more besides just showcasing our art and artist, we can start to showcase or our fashion, our tech, and other areas of our lives. Now we are complete agency and pioneers ready to take NFTs to the next level. So here we are today, taking one step at a time.",
     link: "/roadmap",
     linkText: "View Our Roadmap",
   },

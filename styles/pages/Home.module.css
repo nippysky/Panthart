@@ -10,7 +10,7 @@
 }
 
 .mainDiv {
-    padding: 12rem 4rem 10rem 4rem;
+    padding: 13rem 4rem 5rem 4rem;
     color: white;
     width: 50%;
     animation: fadeIn 2s;
@@ -28,12 +28,12 @@
 
 
 .h1Header {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: 850;
 }
 
 .pHeader {
-    font-size: 1.385rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin: -1rem 0 3rem 0;
     line-height: 1.65;
@@ -107,7 +107,7 @@ MEDIA QUERY FOR RESONSIVNESS */
     }
 
     .mainDiv {
-        padding: 5rem 2rem 8rem 2rem;
+        padding: 7rem 2rem 5rem 2rem;
         align-content: center;
         width: 100%;
     }
