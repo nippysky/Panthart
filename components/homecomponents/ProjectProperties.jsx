@@ -6,7 +6,7 @@ export default function ProjectProperties(props) {
   return (
     <div className={classes.mainImage}>
       <div className={classes.image}>
-        <Image src={imageURL} alt={title} height={200} width={300} />
+        <Image src={imageURL} alt={title} height={200} width={300} priority />
       </div>
       <h3>{title}</h3>
       <p className={classes.text}>{text}</p>
