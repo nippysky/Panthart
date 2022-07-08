@@ -100,7 +100,7 @@
 /* 
 MEDIA QUERY FOR RESONSIVNESS */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .mainSection {
         background-size: cover;
         margin: 0;

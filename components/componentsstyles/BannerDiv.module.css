@@ -35,7 +35,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
     .section {
         padding: 0 2rem;

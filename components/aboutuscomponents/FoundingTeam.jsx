@@ -6,7 +6,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Link from "next/link";
 
 export default function FoundingTeam() {
-  const mobileView = useMediaQuery("(max-width:768px)");
+  const mobileView = useMediaQuery("(max-width:1000px)");
   return (
     <section>
       <div className={classes.rowTop}>

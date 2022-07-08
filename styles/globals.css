@@ -67,7 +67,7 @@ a {
   display: none !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .row {
     padding: 1rem 2rem 0 2rem;
   }

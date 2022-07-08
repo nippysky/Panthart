@@ -49,7 +49,7 @@
     padding: 1rem 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .headText {
         padding: 0 2rem;
     }
