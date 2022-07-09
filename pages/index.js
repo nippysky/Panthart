@@ -55,14 +55,14 @@ export default function Home() {
             <div className={classes.divVM}>
               <h3>Vision</h3>
               <p className={classes.vmText}>
-                To be the biggest NFT agency in the world, and conglomorate of
+                To be the biggest NFT agency in the world, and a conglomerate of
                 'Made By Afer' projects.
               </p>
             </div>
             <div className={classes.divVM}>
               <h3>Mission</h3>
               <p className={classes.vmText}>
-                We strive to offer original projects and service that are 'Made
+                We strive to offer original projects and services that are 'Made
                 By Afer', on the global stage.
               </p>
             </div>
