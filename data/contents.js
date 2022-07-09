@@ -302,6 +302,13 @@ const roadMap = [
     isDone: false,
   },
   {
+    plan: "NFT Africa Event",
+    details:
+      "Synonymous To NFT NYC (New York), We will plan and host annual event for players in the nft space. Let's converse on NFTs, share innovate ideas, Network, and also educate ourselves more on blockchain technology, and NFT." +
+      "The first official event for NFT Africa will take place in Lagos. We will be open to colloborations and more sponsors to support Panthart prior to the date for this event.",
+    isDone: false,
+  },
+  {
     plan: "Distribute Vibrada Tokens For 1st Airdrop",
     details:
       "Comrade never forgets to keep to their promise. On the birth of Panthart, September, 1st 2021; There was an inital airdrop doen for the public in awareness for Panthart, some airdrop tokens were distributed, and we could not complete the rest due to lack of funds. Be rest assured that we still have all our airdrop adresses and distribute the rest of it at this stage." +
