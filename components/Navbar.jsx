@@ -37,7 +37,7 @@ export default function Navbar() {
               </div>
 
               <div className="menuLinks">
-                <Link href="/careers">Work With Us</Link>
+                <Link href="/workwithus">Work With Us</Link>
               </div>
 
               <div className="menuLinks">
