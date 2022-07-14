@@ -74,7 +74,7 @@ export default function Navbar() {
         </div>
 
         <div className="mobileLinks">
-          <Link href="/careers">Work With Us</Link>
+          <Link href="/workwithus">Work With Us</Link>
         </div>
 
         <div className="mobileLinks">
