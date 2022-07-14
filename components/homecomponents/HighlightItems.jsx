@@ -15,7 +15,7 @@ export default function HighlightItems() {
               width={30}
               priority
             />
-            <h3>Made By Afer</h3>
+            <h3>Made In Africa</h3>
             <p className={classes.vmText}>
               We take pride in what we do. 'Made By Afer' is 'Made In Africa'.
               Whatever we engage in is 'Made By Afer'.
