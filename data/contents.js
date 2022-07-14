@@ -9,7 +9,7 @@ const bannerDiv = [
   },
   {
     title: "Be Part Of The Agency \nBy Working With Us.",
-    link: "/careers",
+    link: "/workwithus",
     linkText: "Talk to Us",
     imageURL: "/images/Panthart-Careers.svg",
   },
@@ -46,7 +46,7 @@ const aboutTitleAndDes = [
       "Panthart is a big project. Moving forward, we will comprise of different teams that will be handling different segments simultaneously to achieving a common goal.",
     desTwo:
       "We aim to work only with those who are determined and passionate about the Panthart project.",
-    link: "/careers",
+    link: "/workwithus",
     linkText: "Work With Us",
   },
 ];
@@ -56,7 +56,7 @@ const tAndSum = [
     id: uuidv4(),
     title: "The 187 Artworks.",
     desOne:
-      "If you will like to be part of our angel investors, you will have to purchase at least of our NFT's meant for angel investors only. There will be a mini raffle event for our angel investors to get rewards. More details as we reach that stage on our roadmap.",
+      "To be our angel investor, you will have to purchase at least one of the NFTs meant for angel investors. You can buy more than of of the NFTs and still get all benefits for each of NFT you buy. isn't that amazing?",
     desTwo:
       "Nevertheless, Kindly visit our Rarible page where we have the 187 artworks, waiting for you to grab at least one.",
     link: "https://rarible.com/panthart",
@@ -74,13 +74,13 @@ const tAndSum = [
   },
   {
     id: uuidv4(),
-    title: "100,000 Vibrada Tokens.",
+    title: "Instant Competition On Sale.",
     desOne:
-      "Following Our Project paper, you will see that we have already created our token on the Binance Smart Chain in the past. This was the beginning of Panthart before we now.",
+      "8 of the 187 NFTs for Angel Investors stands a chance to win 0.5 ETH. Out of the winning 8 cards, 1 out of the 8 automatically gets an extra 0.385ETH just for buying into the lucky card.",
     desTwo:
-      "Every Angel Investor will have 100,000 VBRD sent to their respective wallet. Just like the comrades, every angel investor gets 100,000 VBRD per artwork. If you want to wrap you head around Vibrada token, visit the page.",
-    link: "https://bscscan.com/token/0x76ffe3777f76fb501f63734d9a8850db3c760470",
-    linkText: "Vibrada Token",
+      "Out of the 187, there is also a single standout NFT. Anyone who finds and buys into it, gets 3 Comrades NFT instead of 2, and also gets 0.385ETH. Kindly note that all rewards will be disbursed only after the public mint is completed and sold out. ",
+    link: "http://nfcomrades.com",
+    linkText: "Become A Comrade",
   },
   {
     id: uuidv4(),
@@ -91,6 +91,16 @@ const tAndSum = [
       "We will also reward comrades based on tasks carried out in the community.",
     link: "http://nfcomrades.com",
     linkText: "Become A Comrade",
+  },
+  {
+    id: uuidv4(),
+    title: "100,000 Vibrada Tokens.",
+    desOne:
+      "Following Our Project paper, you will see that we have already created our token on the Binance Smart Chain in the past. This was the beginning of Panthart before we now.",
+    desTwo:
+      "Every Angel Investor will have 100,000 VBRD sent to their respective wallet. Just like the comrades, every angel investor gets 100,000 VBRD per artwork. If you want to wrap you head around Vibrada token, visit the page.",
+    link: "https://bscscan.com/token/0x76ffe3777f76fb501f63734d9a8850db3c760470",
+    linkText: "Vibrada Token",
   },
 ];
 
@@ -222,17 +232,12 @@ const faqS = [
   {
     question: "Benefits of being an Angel Investor.",
     answer:
-      "Our Angel Investors are the part of ther bcakbone of the Panthart project together with the holders of the non-fungible comrades. Angel investors the more benefits than a comrade holder. 100,000VBRD for our Angel Investors compared to the 1500VBRD for comrade holders. Angel Investors also get double comrades sent to their wallets after our mint and have access to exclusive airdrops for Angel Investors. these are just a few. see more on the Angel Investor page. ",
+      "Our Angel Investors are the part of ther bcakbone of the Panthart project together with the holders of the non-fungible comrades. Angel investors the more benefits than a comrade holder. 100,000VBRD for our Angel Investors compared to the 5000VBRD for comrade holders. Angel Investors also get double comrades sent to their wallets after our mint and have access to exclusive airdrops for Angel Investors. these are just a few. see more on the Angel Investor page. ",
   },
   {
     question: "Is Panthart A Registered Company?",
     answer:
       "By the time you are viewing this question and answer, Panthart should be a registered company. Regardless, if that is not the case, we have it on our roadmap to get registered after our mint.",
-  },
-  {
-    question: "How do you plan to use the funds raised from the project?",
-    answer:
-      "View Our Project Paper, to get full insight on how the funds will be used. Everything is well detailed in the paper.",
   },
   {
     question: "What is the plan for the Vibrada Token?",
@@ -247,12 +252,12 @@ const faqS = [
   {
     question: "When will the Afer Blockchain project Kickoff?",
     answer:
-      "Afer Bllockchain is not in our immediate plans, as there are a lot of complexities and technicalities associated with building a natie blockchain from the scratch. There is no rush. More and extensive research needs to be done to ensure we deliver the best possible blockchain possible as described on the Afer blockchain page. There will be updates moving forward the Afer blockchain project.",
+      "Afer Blockchain is not in our immediate plans, as there are a lot of complexities and technicalities associated with building a native blockchain from the scratch. There is no rush. More and extensive research needs to be done to ensure we deliver the best possible blockchain possible as described on the Afer blockchain page. There will be updates moving forward the Afer blockchain project.",
   },
   {
     question: "Is Panthart different from Non-Fungible Comrades?",
     answer:
-      "Non-Fungible Comrades is a NFT project and Community under the Panthart. Panthart is a parent company to other projects besides the non-fungible comrades like the Afer blockchain, comrades, NFT marketplace and more Made in Afer products.",
+      "Non-Fungible Comrades is a NFT project and Community under the Panthart. Panthart is a parent company to other projects besides the non-fungible comrades like the Afer blockchain, NFT marketplace and more Made in Afer products.",
   },
 ];
 
@@ -270,55 +275,73 @@ const roadMap = [
     isDone: false,
   },
   {
-    plan: "Mint The Comrades",
+    plan: "Mint The Comrades (5000 Collection)",
     details:
-      "The long awaited mint-day is here. There is a total of 25,000 Comrades. Only 24,000 of them are released to the public for minting. The remaining 1000 Comrades will be kept with Panthart for Our Angel Investors, Team Members, Awards, Rewards and Reserve. Angel Investors gets two comrades each per artwork bought for Panthart's Angel Investment. More details about angel investors can be found on the Angel Investors Page. Each founding team member of panthart are rewarded comrades, outside the one they have minted by themselves. This is to show appreciation for the hardwork in putting this wonderful project together. The rest of the available comrades will be kept in reserve for Partnerships, Colloborations, Competitons and future auctions.",
+      "There is a total of 5,500 Comrades. 5,000 Comrades will be released to the public for minting as a collection. Angel Investors and team members can optionally participate in the public mint, but do not need to, as the remaining 500 Comrades are reserved for them. More details about angel investors can be found on the Angel Investors Page.",
+    isDone: false,
+  },
+  {
+    plan: "The 500 Collection",
+    details:
+      "The 500 Collection will be deployed to the blockchain, and will not be available for public mint. This is strictly for Angel Investors, Team Members, auctions, Rewards and Awards. Although, It will become available in the secondary market.",
     isDone: false,
   },
   {
     plan: "Reward Angel Investors, And Award Winners",
     details:
-      "Comrades meant for Angel Investors will be sent to their respective wallets. Winners of the competition gets their prices too.",
+      "After the deployment of the 500 Collection, Comrades meant for Angel Investors will be sent to their respective wallets. Each Investor gets double Comrades from the collection of 500 that will be set aside. Winners of the competition gets their prices too from here.",
     isDone: false,
   },
   {
     plan: "Registration And Trademark",
     details:
       "Our Vision is to be the largest conglomorate of Made In Afer (Africa) Products. Both Physical and Digital Products. We need to be legally recognised as a business. Details of our regitration will be shared across to the comradres, as they are shareholders of Panthart, and also announced across our various Social Media." +
-      " Panthart will be resgitered as a Parent company with other brands, business amd service we offer and look to exlore under it, moving forward.",
+      " Panthart will be resgitered as a Parent company of all our other projects and service.",
     isDone: false,
   },
   {
-    plan: "Brand Elements For Panthart And Comrades.",
+    plan: "Brand Elements For Panthart And Comrades",
     details:
-      "Our brand elemenst will be released. This is to aid correct use and representation of Panthart and all her sub-projects including the Non-Fungible Comrades. Comrades will at dome point want to use our brand element on their merch and business. Panthart will aid in this course.",
+      "Our brand elements will be released. This is to aid correct use and representation of Panthart and all her sub-projects including the Non-Fungible Comrades. Comrades will love to use our branding for their merch and various business. Panthart will aid in this course.",
+    isDone: false,
+  },
+  {
+    plan: "Our Creators Economy - VawulEnt",
+    details:
+      "This is the beginning of Project VawulEnt. At this point we begin to create contents for the public. this includes Youtube Channel, Tiktok, Shorts (Short videos), Articles, and lots more. All this to entertain and educate the public. We also show support to existing black creators at this stage.",
     isDone: false,
   },
   {
     plan: "7 Days On BlockChain, Sessions With Comrades",
     details:
-      "This task is divided into two sections. The first being for the for the public, including comrades and non-comrades. There are a large number of the public who have little or no idea of what blockchain is all about or how to navigate themselves around NFT. We will help with all resources we can to bring the public to an understanding, through our various social media like Twitter space and threads, discord, medium articles." +
+      "This task is divided into two sections. The first being for the public, including comrades and non-comrades. There are a large number of the public who have little or no idea of what blockchain is all about or how to navigate themselves around NFT. We will help with all resources we can to bring the public to an understanding, through our various social media like Twitter space and threads, discord, medium articles." +
       " The second Section is exclusive to the holders of Non-Fungible Comrades. More attention and care will be provided to them to answer all their questions and at this point, we will be sharing information about our current and future plans moving forward in our project.",
     isDone: false,
   },
   {
-    plan: "NFT Africa Event",
+    plan: "Release Our Merch",
     details:
-      "Synonymous To NFT NYC (New York), We will plan and host annual event for players in the nft space. Let's converse on NFTs, share innovate ideas, Network, and also educate ourselves more on blockchain technology, and NFT." +
-      "The first official event for NFT Africa will take place in Lagos. We will be open to colloborations and more sponsors to support Panthart prior to the date for this event.",
+      "Lol! We were never going to skip this stage. This is start of our lifestyle's project. Comrades can request that their comrades be custom printed on their merch. The public too can order from our already made merchandise. We want to assure you that our packaging will be unique and mad!!! Kindly note that delivery fee applies especially if you are outside Nigeria, and want your package delivered to you. You can also request that we send the digital elements needed so that you easily produce an output in your location.",
+    isDone: false,
+  },
+  {
+    plan: "Our First NFT Africa Event",
+    details:
+      "Synonymous To NFT NYC (New York), We will plan and host annual event for players in the nft space in Africa. Let's converse on NFTs, share innovative ideas, Network, and also educate ourselves more on blockchain technology, and NFT. " +
+      "The first official event for NFT Africa will take place in Lagos, and subsequently, other African Cities. We will be open to colloborations and more sponsors to support Panthart prior to the date for this event.",
     isDone: false,
   },
   {
     plan: "Distribute Vibrada Tokens For 1st Airdrop",
     details:
-      "Comrade never forgets to keep to their promise. On the birth of Panthart, September, 1st 2021; There was an inital airdrop doen for the public in awareness for Panthart, some airdrop tokens were distributed, and we could not complete the rest due to lack of funds. Be rest assured that we still have all our airdrop adresses and distribute the rest of it at this stage." +
-      " If you feel lost and have no idea of what we are saying, kindly visit 'Who We Are' page for more details. We have a history before now. This is our second coming.",
+      "Comrades never forgets to keep to their promise. On the birth of Panthart, September, 1st 2021; There was an inital airdrop done for the public in awareness for Panthart, some airdrop tokens were distributed, and we could not complete the rest due to lack of funds. Be rest assured that we still have all our airdrop adresses and distribute the rest of it at this stage." +
+      " If you feel lost and have no idea of what we are saying, kindly visit 'Who We Are' page for more details. We have a history before now. This is our second coming. Kindly also read through our project paper concerning Vibrada Token, to avoid unneccasry questions and comments.",
     isDone: false,
   },
   {
     plan: "Distribute Vibrada Token For Comrades",
     details:
-      "We now have a thriing community, and our Angel Investors are now comrades too. 2000VBRD each for regualar comrade holders, and 100,000VBRD for Angel Investors will be distributed. ",
+      "We now have a thriving community, and our Angel Investors are now comrades too. 5000VBRD each for All Comrade holders, and 100,000VBRD for Angel Investors will be distributed. Angel Investors don't get from the 5000VBRD.",
     isDone: false,
   },
 ];

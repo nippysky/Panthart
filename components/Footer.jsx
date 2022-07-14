@@ -38,7 +38,7 @@ export default function Footer() {
               <Link href="/roadmap">Roadmap</Link>
             </p>
             <p className={classes.footLink}>
-              <Link href="/careers">Careers</Link>
+              <Link href="/workwithus">Work With Us</Link>
             </p>
             <p className={classes.footLink}>
               <Link href="/faqs">FAQs</Link>

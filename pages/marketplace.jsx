@@ -28,7 +28,7 @@ export default function MarketPlace() {
       <OtherPagesHeader imageURL="/images/marketplace/MarketPlace.svg" />
       <div>
         <p className={classes.headText}>
-          Having our won marketplace, was the foundation and beginning of
+          Having our own marketplace, was the foundation and beginning of
           Panthart. A space where we showcase our artworks with a million
           stories to tell. Full of our rich culture and history, also mixed with
           our modern and contemporary lifestyle. Our uniqueness is branding and

@@ -28,7 +28,18 @@ export default function Faqs() {
         <p className={classes.headText}>
           Let's answer some of your questions. If you do not see your question
           or anyone related, feel free to ask your question using our social
-          media handler. Just tag us.
+          media handler. Just tag us, or alternatively, send us an email on{" "}
+          <a href="mailto:PanthartOfficial@gmail.com">
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "rgb(46, 49, 146)",
+                textDecoration: "underline",
+              }}
+            >
+              panthartofficial@gmail.com
+            </span>
+          </a>
         </p>
       </div>
 

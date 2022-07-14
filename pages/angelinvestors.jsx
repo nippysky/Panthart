@@ -28,10 +28,10 @@ export default function AngelInvestors() {
         <p className={classes.headText}>
           Our angel investors are part of the forerunners for Panthart. Their
           support is will aid in kicking out our activities, projects, and
-          canceling out our roadmap checklist one after the day. We also show
+          canceling out our roadmap checklist one after the other. We also show
           our appreciation to our angel investors. They are never to be
           forgotten as time unfolds. Below are what it entails to be part of our
-          angel investor list.
+          Angel Investors.
         </p>
       </div>
       {tAndSum.map(createSection)}

@@ -114,7 +114,7 @@ export default function Home() {
         title="Non- Fungible Comrades."
         description="NFComrades is the web3 community for Panthart. Comrades are our supporters
         and investors who serves as protagonists to our vision and mission. With their entrance
-        into the community, we are able to start doing wonderful things. We are getting bigger than the Apes. Yes! We love Vawulence."
+        into the community, we are able to start doing wonderful things. We are getting bigger than the Apes."
         link="http://nfcomrades.com"
         linkText="Become A Comrade"
       />

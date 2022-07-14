@@ -18,7 +18,7 @@ export default function Projects() {
 
         <div className={classes.buttonDiv}>
           <div className={classes.buttonHolder}>
-            <Button link="/careers">
+            <Button link="/workwithus">
               <span
                 style={{
                   fontSize: "1.2rem",

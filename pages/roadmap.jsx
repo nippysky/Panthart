@@ -38,10 +38,10 @@ export default function RoadMap() {
       <div className={classes.RoadOneDiv}>
         <h2>Road One.</h2>
         <p>
-          After the completion of Road one, we will update it with Road Two, and
-          so on going forward, so as not to make the website long and boring.
-          Rest assured that we have amazing things lined up for you. Let's
-          begin.
+          Road One is focused more on the Comrades. After the completion of Road
+          one, we will update it with Road Two, and so on going forward, so as
+          not to make the website long and boring. Rest assured that we have
+          amazing things lined up for you. Let's begin.
         </p>
       </div>
 
