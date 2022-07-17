@@ -33,13 +33,15 @@ export default function Competitions() {
         <div className="compColumn">
           <h3 className="compText">
             <Link href="/competitions/programmer">
-              Programmers Challenge 2022
+              Programmers Competition 2022
             </Link>
           </h3>
         </div>
         <div className="compColumn">
           <h3 className="compText">
-            <Link href="/competitions/designer">Designer's Challenge 2022</Link>
+            <Link href="/competitions/designer">
+              Designer's Competition 2022
+            </Link>
           </h3>
         </div>
       </div>
