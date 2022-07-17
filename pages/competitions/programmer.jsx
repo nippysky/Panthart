@@ -140,11 +140,11 @@ export default function Programmer() {
         <h2>Details For Non-Holders Of Comrades.</h2>
         <p className={classes.compText}>
           Comrades get the full prizes as listed above. If you are not a
-          Comrade, you get half of the prizes from the listed prize list above.
-          For example, you emerge the winner of this competiton, and you are not
-          a comrade, you get $500, 2500VBRD, and Fashion Package from panthart.
-          No Macbook and no Comrade package. Conditions as stated above still
-          applies before prizes are rewarded.
+          Comrade, you get quater of the prizes from the listed prize list
+          above. For example, you emerge the winner of this competiton, and you
+          are not a comrade, you get $250, 1250VBRD, and Fashion Package from
+          panthart. No Macbook and no Comrade package. Conditions as stated
+          above still applies before prizes are rewarded.
         </p>
       </div>
     </section>

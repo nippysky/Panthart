@@ -21,6 +21,7 @@ export default function Competitions() {
           the below competitons and read through the details before you
           participate. You can particiate in any and all available competitions,
           so as far as you have what it takes, and you are up for the challenge.
+          Moving forward, more competitions will be added.
         </p>
       </div>
       <div className="compRow">

@@ -171,12 +171,12 @@ export default function FPL() {
         <h2>Details For Non-Holders Of Comrades.</h2>
         <p className={classes.compText}>
           Comrades get the full prizes as listed above. If you are not a
-          Comrade, you get half of the prizes from any category you win, and
+          Comrade, you get quater of the prizes from any category you win, and
           also you dont get the Ps5, and the Comrade Branded Package. For
           example: You win the Manager of the Year (Winner) category, and you
-          are not a comrade, you get $1000, 1500VBRD, and favourite premier
-          league Jersey. No ps5, and no comrade branded package. Conditions as
-          stated above still applies before prizes are rewarded.
+          are not a comrade, you get $500, 750VBRD, and favourite premier league
+          Jersey. No ps5, and no comrade branded package. Conditions as stated
+          above still applies before prizes are rewarded.
         </p>
       </div>
     </section>
