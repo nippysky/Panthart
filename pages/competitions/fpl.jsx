@@ -47,7 +47,7 @@ export default function FPL() {
           Close Date For League New Entries:{" "}
           <span style={{ color: "green", lineHeight: "2" }}>
             {" "}
-            29th, July, 2022.
+            1st, August, 2022.
           </span>
         </p>
         <p style={{ fontWeight: "bolder", fontSize: "1rem" }}>
