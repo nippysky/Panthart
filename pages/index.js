@@ -8,7 +8,6 @@ import bannerDiv from "../data/contents";
 import Projects from "../components/homecomponents/Projects";
 import Button from "../components/Button";
 import { HiArrowNarrowRight } from "react-icons/hi";
-// import { Link } from "@mui/material";
 import Link from "next/link";
 import Newsletter from "../components/Newsletter";
 

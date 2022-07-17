@@ -269,12 +269,6 @@ const roadMap = [
     isDone: false,
   },
   {
-    plan: "Announce The Winners Of The Competition",
-    details:
-      "We announce the winners of the competiton on our social media, with their respective prices.",
-    isDone: false,
-  },
-  {
     plan: "Mint The Comrades (5000 Collection)",
     details:
       "There is a total of 5,500 Comrades. 5,000 Comrades will be released to the public for minting as a collection. Angel Investors and team members can optionally participate in the public mint, but do not need to, as the remaining 500 Comrades are reserved for them. More details about angel investors can be found on the Angel Investors Page.",
@@ -342,6 +336,12 @@ const roadMap = [
     plan: "Distribute Vibrada Token For Comrades",
     details:
       "We now have a thriving community, and our Angel Investors are now comrades too. 5000VBRD each for All Comrade holders, and 100,000VBRD for Angel Investors will be distributed. Angel Investors don't get from the 5000VBRD.",
+    isDone: false,
+  },
+  {
+    plan: "Announce The Winners Of The Competition",
+    details:
+      "We announce the winners of the competiton on our social media, with their respective prices. This part of the roadmap is recurring and does not affect the occurence of any other step in the roadmap.",
     isDone: false,
   },
 ];

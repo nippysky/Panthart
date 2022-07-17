@@ -46,6 +46,9 @@ export default function Footer() {
             <p className={classes.footLink}>
               <Link href="/angelinvestors">Angel Investors</Link>
             </p>
+            <p className={classes.footLink}>
+              <Link href="/competitions">Competitions</Link>
+            </p>
           </div>
         </div>
 
@@ -99,9 +102,7 @@ export default function Footer() {
               </Link>
             </p>
             <p className={classes.footLink}>
-              <Link href="https://www.youtube.com/channel/UCF7-gSEIPIFrGEON4MMyatQ">
-                Youtube
-              </Link>
+              <Link href="https://www.youtube.com/c/Panthart">Youtube</Link>
             </p>
           </div>
         </div>

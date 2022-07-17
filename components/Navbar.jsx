@@ -37,6 +37,10 @@ export default function Navbar() {
               </div>
 
               <div className="menuLinks">
+                <Link href="/competitions">Competitions</Link>
+              </div>
+
+              <div className="menuLinks">
                 <Link href="/workwithus">Work With Us</Link>
               </div>
 
@@ -71,6 +75,10 @@ export default function Navbar() {
 
         <div className="mobileLinks">
           <Link href="/roadmap">Roadmap</Link>
+        </div>
+
+        <div className="mobileLinks">
+          <Link href="/competitions">Competitions</Link>
         </div>
 
         <div className="mobileLinks">
