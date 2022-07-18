@@ -242,7 +242,7 @@ const faqS = [
   {
     question: "What is the plan for the Vibrada Token?",
     answer:
-      "Our Vibrada Token currently on the Binance Smart Chain is only temporal as we plan to build our own blockchain in the future, all current vibrada token balance will be trnasfered upon completion of the blockchain, but before then, the current vibrada token will suffice for normal and regular use and will also be tradable on the market.",
+      "Our Vibrada Token currently on the Binance Smart Chain is only temporal as we plan to build our own blockchain in the future, all current vibrada token balance will be transfered upon completion of the blockchain, but before then, the current vibrada token will suffice for normal and regular use and will also be tradable on the market.",
   },
   {
     question: "Why is the mint price for the comrades cheap?",
