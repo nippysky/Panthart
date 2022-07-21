@@ -99,6 +99,9 @@ export default function Footer() {
             <p className={classes.footLink}>
               <Link href="https://www.youtube.com/c/Panthart">Youtube</Link>
             </p>
+            <p className={classes.footLink}>
+              <Link href="https://discord.gg/uuvbs9DJ7H">Discord</Link>
+            </p>
           </div>
         </div>
       </div>
