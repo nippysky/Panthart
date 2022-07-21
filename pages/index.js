@@ -40,12 +40,12 @@ export default function Home() {
       </section>
       <div className={classes.divRow}>
         <div className={classes.divcolumn}>
-          <h2>The Creativity Is Plenty.</h2>
+          <h2>Creative & Innovative Minds.</h2>
           <p className={classes.divText}>
             Unique concepts and ideas with creative executions. We will work
             with like-mind individuals, and carry out our business differently
-            and beyond satisfactory. There is plenty to explore in this space.
-            We do things our own way.
+            and beyond satisfactory. There are ample of things to explore in
+            this space. We do things our own way.
           </p>
           <Newsletter />
         </div>
