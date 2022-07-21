@@ -29,21 +29,10 @@ const aboutTitleAndDes = [
   },
   {
     id: uuidv4(),
-    title: "Reincarnation of Panthart.",
-    italic: "From September, 1st 2021",
-    desOne:
-      "Panthart was founded on the 1st of September 2021. We had undergone our manual Initial Coin offering Stage and also did an airdrop. Although, we have not distributed the airdrop tokens, we have sold some of our  tokens to the public outside the exchange market (manually). Rest assured that the airdrop tokens will be distributed at the start of this new era.",
-    desTwo:
-      "Plans did not work out the first time, but that was not enough reason to quit we needed to correct our mistakes and come back stronger. Evidence of our establishment can be seen on our token smart contract explorer page, where some of the tokens have already been sold and distributed. We promised that we will be back. Now we are here. Stronger and better.",
-    link: "https://bscscan.com/token/0x76ffe3777f76fb501f63734d9a8850db3c760470",
-    linkText: "View Our Contract",
-  },
-  {
-    id: uuidv4(),
-    title: "Different Teams, Same Goal.",
+    title: "Achieving Same Goal.",
     italic: "One Big Community",
     desOne:
-      "Panthart is a big project. Moving forward, we will comprise of different teams that will be handling different segments simultaneously to achieving a common goal.",
+      "Panthart is a big project. Moving forward, we will comprise of different teams that will be handle different segments simultaneously to achieve a common goal.",
     desTwo:
       "We aim to work only with those who are determined and passionate about the Panthart project.",
     link: "/workwithus",
@@ -54,31 +43,21 @@ const aboutTitleAndDes = [
 const tAndSum = [
   {
     id: uuidv4(),
-    title: "The 187 Artworks.",
+    title: "The 500 of 5500 | The Senior Comrades.",
     desOne:
-      "To be our angel investor, you will have to purchase at least one of the NFTs meant for angel investors. You can buy more than of of the NFTs and still get all benefits for each of NFT you buy. isn't that amazing?",
+      "To be our angel investor, you will have to purchase at least one of the NFT in the Non-Fungible Comrades collection, 500 of 5500. On the release of The 500 collection, 470 of the 500 will be available on auction starting with a price of 0.385ETH. Just for the sake of clarity, the remaining 30 is reserved for the Panthart Team, and would be used for rewards or further options.",
     desTwo:
-      "Nevertheless, Kindly visit our Rarible page where we have the 187 artworks, waiting for you to grab at least one.",
-    link: "https://rarible.com/panthart",
-    linkText: "View Our Rarible Page",
-  },
-  {
-    id: uuidv4(),
-    title: "Double Comrades.",
-    desOne:
-      "Those who acquire one of the artworks for our angel investment, will be guaranteed 2 comrades after the mint date. If you acquire one of the artwork, you get 2 comrades. If you acquire two of the artworks, you get 4 comrades. If you acquire 3 of the artworks, you get 6 comrades and so on.",
-    desTwo:
-      "The comrades will be sent to the investor's wallet after mint date for free. We must have gathered the details we need to proof that you are our angel investor after the purchase from Rarible. An angel investor can still independently, mint a comrade on their own accord on the mint date, or trade also in the secondary market after the primary sale",
+      "Buying into this collection, makes you a Senior Comrade. You get all benefits from the 5000 of 5500 collection and more. There is also no limit to the amount of Senior Comrades per wallet. Senior comrades can still own a regular Comrade regardless. There is no limit for Senior Comrades. They are the Seniors.",
     link: "http://nfcomrades.com",
     linkText: "Become A Comrade",
   },
   {
     id: uuidv4(),
-    title: "Instant Competition On Sale.",
+    title: "10% Of Panthart As A Company.",
     desOne:
-      "8 of the 187 NFTs for Angel Investors stands a chance to win 0.5 ETH. Out of the winning 8 cards, 1 out of the 8 automatically gets an extra 0.385ETH just for buying into the lucky card.",
+      "We are the first project to do this. Moving forward towards the growth of Panthart, Our Senior Comrades (Angel Investors) collectively own 10% of Panthart.",
     desTwo:
-      "Out of the 187, there is also a single standout NFT. Anyone who finds and buys into it, gets 3 Comrades NFT instead of 2, and also gets 0.385ETH. Kindly note that all rewards will be disbursed only after the public mint is completed and sold out. ",
+      "Just as a regular company operates, at the end of every business year, Senior Comrades gets their own allocation. We know that these NFT can be sold to a new user. Selling your senior comrade means selling your own share to the new owner. This a a very interesting utility we are giving the Senior Comrades.",
     link: "http://nfcomrades.com",
     linkText: "Become A Comrade",
   },
@@ -86,21 +65,10 @@ const tAndSum = [
     id: uuidv4(),
     title: "Exclusive Access To Airdrops And Rewards.",
     desOne:
-      "As we progress and hit our targets on the roadmap, there will be exclusive airdrops for our comrades and also an additional flex in particular for our Angel Investors.",
-    desTwo:
-      "We will also reward comrades based on tasks carried out in the community.",
+      "As we progress and hit our targets on the roadmap, there will be exclusive airdrops for our Comrades and also an additional flex in particular for our Angel Investors. This means that Angel Investors (Senior Comrades), gets more portion of sweetness than a regular Comrade in all our airdrops and rewards.",
+    desTwo: "",
     link: "http://nfcomrades.com",
     linkText: "Become A Comrade",
-  },
-  {
-    id: uuidv4(),
-    title: "100,000 Vibrada Tokens.",
-    desOne:
-      "Following Our Project paper, you will see that we have already created our token on the Binance Smart Chain in the past. This was the beginning of Panthart before we now.",
-    desTwo:
-      "Every Angel Investor will have 100,000 VBRD sent to their respective wallet. Just like the comrades, every angel investor gets 100,000 VBRD per artwork. If you want to wrap you head around Vibrada token, visit the page.",
-    link: "https://bscscan.com/token/0x76ffe3777f76fb501f63734d9a8850db3c760470",
-    linkText: "Vibrada Token",
   },
 ];
 
@@ -157,9 +125,9 @@ const marketPlaceDetails = [
     id: uuidv4(),
     title: "The Cashout Option.",
     desOne:
-      "We will put out a new feature to the test. It is called the cashout phase. The idea behind the cashout feature is that: when an NFT is purchased and then due to time limit or emergency if what kind, a user is not able to trade their NFT, they can opt for the cashout option.",
+      "We will put out a new feature to the test. It is called the cashout option. The idea behind the cashout feature is that: when an NFT is purchased and then due to time limit or emergency of any kind, a user is not able to trade their NFT, they can opt for the cashout option.",
     desTwo:
-      "The Cashout option will automatically convert the NFT to a fungible value, that is (From ERC-721 to ERC-20), but for a fee and less than the actual value of the NFT so as to ensure that the feature is not misused. The NFT which was cashedout automatically belongs to the Panthart, as is now either kept/stored in a wallet or put up for auction to be traded again by another user.",
+      "The Cashout option will automatically convert the NFT to a fungible value, that is (From ERC-721 to ERC-20), but for a fee and will worth also worth less than the actual value of the NFT so as to ensure that the feature is not misused. The NFT in return automatically belongs to the Panthart, and will be either reserved or put up for auction to be traded again by another user.",
   },
 ];
 
@@ -232,22 +200,16 @@ const faqS = [
   {
     question: "Benefits of being an Angel Investor.",
     answer:
-      "Our Angel Investors are the part of ther bcakbone of the Panthart project together with the holders of the non-fungible comrades. Angel investors the more benefits than a comrade holder. 100,000VBRD for our Angel Investors compared to the 5000VBRD for comrade holders. Angel Investors also get double comrades sent to their wallets after our mint and have access to exclusive airdrops for Angel Investors. these are just a few. see more on the Angel Investor page. ",
+      "Our Angel Investors AKA Senior Comrades, are the main funders of the Panthart project together with the Comrades. Angel investors gets more perks in the long run. More information on this on the 'Angel Investors' page. ",
   },
   {
-    question: "Is Panthart A Registered Company?",
-    answer:
-      "By the time you are viewing this question and answer, Panthart should be a registered company. Regardless, if that is not the case, we have it on our roadmap to get registered after our mint.",
-  },
-  {
-    question: "What is the plan for the Vibrada Token?",
-    answer:
-      "Our Vibrada Token currently on the Binance Smart Chain is only temporal as we plan to build our own blockchain in the future, all current vibrada token balance will be transfered upon completion of the blockchain, but before then, the current vibrada token will suffice for normal and regular use and will also be tradable on the market.",
+    question: "Will Panthart be a registered company?",
+    answer: "Yes! it's in our roadmap to get Panthart registered as a company.",
   },
   {
     question: "Why is the mint price for the comrades cheap?",
     answer:
-      "This is to enable everyone possible, who is passionate about the project, to join in.",
+      "This is to enable everyone possible, who is passionate about the project, to join in. The mint price is 0.05ETH",
   },
   {
     question: "When will the Afer Blockchain project Kickoff?",
@@ -275,15 +237,9 @@ const roadMap = [
     isDone: false,
   },
   {
-    plan: "The 500 Collection",
+    plan: "Mint The Comrades (500 Collection)",
     details:
-      "The 500 Collection will be deployed to the blockchain, and will not be available for public mint. This is strictly for Angel Investors, Team Members, auctions, Rewards and Awards. Although, It will become available in the secondary market.",
-    isDone: false,
-  },
-  {
-    plan: "Reward Angel Investors, And Award Winners",
-    details:
-      "After the deployment of the 500 Collection, Comrades meant for Angel Investors will be sent to their respective wallets. Each Investor gets double Comrades from the collection of 500 that will be set aside. Winners of the competition gets their prices too from here.",
+      " Half way to the sellout of The 5000 Collection, The 500 Collection will be released, and will be available to the public for angel investment, with an allocation of Senior Comrades reserved for the Panthart team.",
     isDone: false,
   },
   {
@@ -322,24 +278,11 @@ const roadMap = [
     plan: "Our First NFT Africa Event",
     details:
       "Synonymous To NFT NYC (New York), We will plan and host annual event for players in the nft space in Africa. Let's converse on NFTs, share innovative ideas, Network, and also educate ourselves more on blockchain technology, and NFT. " +
-      "The first official event for NFT Africa will take place in Lagos, and subsequently, other African Cities. We will be open to colloborations and more sponsors to support Panthart prior to the date for this event.",
+      "The first official event for NFT Africa will take place in Nigeria, and subsequently, other African Countries. We will be open to collaborations and more sponsors to support Panthart prior to the date for this event.",
     isDone: false,
   },
   {
-    plan: "Distribute Vibrada Tokens For 1st Airdrop",
-    details:
-      "Comrades never forgets to keep to their promise. On the birth of Panthart, September, 1st 2021; There was an inital airdrop done for the public in awareness for Panthart, some airdrop tokens were distributed, and we could not complete the rest due to lack of funds. Be rest assured that we still have all our airdrop adresses and distribute the rest of it at this stage." +
-      " If you feel lost and have no idea of what we are saying, kindly visit 'Who We Are' page for more details. We have a history before now. This is our second coming. Kindly also read through our project paper concerning Vibrada Token, to avoid unneccasry questions and comments.",
-    isDone: false,
-  },
-  {
-    plan: "Distribute Vibrada Token For Comrades",
-    details:
-      "We now have a thriving community, and our Angel Investors are now comrades too. 5000VBRD each for All Comrade holders, and 100,000VBRD for Angel Investors will be distributed. Angel Investors don't get from the 5000VBRD.",
-    isDone: false,
-  },
-  {
-    plan: "Announce The Winners Of The Competition",
+    plan: "Award The Winners Of The Competitions",
     details:
       "We announce the winners of the competiton on our social media, with their respective prices. This part of the roadmap is recurring and does not affect the occurence of any other step in the roadmap.",
     isDone: false,

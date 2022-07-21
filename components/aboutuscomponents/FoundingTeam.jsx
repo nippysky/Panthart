@@ -119,8 +119,8 @@ export default function FoundingTeam() {
             Comrades.
           </p>
           <SocialIcons
-            twitterURL="https://twitter.com/heis_cyph"
-            instaURL="https://instagram.com/iam.cyph"
+            twitterURL="https://twitter.com/iam_cyph"
+            instaURL="https://instagram.com/iam_cyph"
             linkedInURL="https://www.linkedin.com/in/nweketebrightchidi"
           />
         </div>
@@ -132,35 +132,16 @@ export default function FoundingTeam() {
       >
         <div className={classes.column}>
           <p className={classes.text}>
-            Isaac AKA 'Mr. Isaac' is a blockchain and web developer. He created
-            the smart contract for our Vibrada token.
+            Adaugo is a a creative digital artiste, who loves to design digital
+            artworks with her phone and laptop. She aided in design concept for
+            the Non-Fungible Comrades.
           </p>
           <SocialIcons
-            twitterURL="https://twitter.com/EVMlord"
-            instaURL="https://github.com/EVMlord"
-            linkedInURL="https://www.linkedin.com/in/evmlord"
+            twitterURL="/"
+            instaURL="https://instagram.com/_dugoukah_"
+            linkedInURL="/"
           />
         </div>
-        <div className={classes.column}>
-          <div className={classes.teamCard}>
-            <div>
-              <Image
-                src="/images/aboutus/Isaac.png"
-                alt="Mr. Isaac"
-                height={1500}
-                width={1850}
-                priority
-              />
-            </div>
-            <div className={classes.cardDetails}>
-              <h2>Isaac Ekhaguere</h2>
-              <p className={classes.text}>Blockchain Developer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className={classes.row}>
         <div className={classes.column}>
           <div className={classes.teamCard}>
             <div>
@@ -178,25 +159,36 @@ export default function FoundingTeam() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className={classes.row}>
+        <div className={classes.column}>
+          <div className={classes.teamCard}>
+            <div>
+              <Image
+                src="/images/aboutus/NFComrades.gif"
+                alt="Adaugo"
+                height={1500}
+                width={1550}
+                priority
+              />
+            </div>
+            <div className={classes.cardDetails}>
+              <h2>The 5500 Comrades</h2>
+              <p className={classes.text}>Community Backbone</p>
+            </div>
+          </div>
+        </div>
         <div className={classes.column}>
           <p className={classes.text}>
-            Adaugo is a a creative digital artiste, who loves to design digital
-            artworks with her phone and laptop. She aided in designing the NFT
-            artworks for our Angel Investors.{" "}
-            <span
-              style={{
-                fontWeight: "600",
-                textDecoration: "underline",
-                color: "#2e3192",
-              }}
-            >
-              <Link href="https://rarible.com/panthart">Visit Page</Link>
-            </span>
+            Comrades are the foundation and builders of Panthart. Their effort
+            and investment in time and money together with core members is the
+            vehicle that moves Panthart forward.
           </p>
           <SocialIcons
-            twitterURL="/"
-            instaURL="https://instagram.com/_dugoukah_"
-            linkedInURL="/"
+            twitterURL="https://twitter.com/nfcomrades"
+            instaURL="https://instagram.com/nfcomrades"
+            linkedInURL="https://linkedin.com/company/panthart"
           />
         </div>
       </div>

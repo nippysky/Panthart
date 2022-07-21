@@ -46,9 +46,6 @@ export default function Footer() {
             <p className={classes.footLink}>
               <Link href="/angelinvestors">Angel Investors</Link>
             </p>
-            <p className={classes.footLink}>
-              <Link href="/competitions">Competitions</Link>
-            </p>
           </div>
         </div>
 
@@ -75,9 +72,7 @@ export default function Footer() {
               <Link href="/vawulent">VawulEnt</Link>
             </p>
             <p className={classes.footLink}>
-              <Link href="https://bscscan.com/token/0x76ffe3777f76fb501f63734d9a8850db3c760470">
-                Vibrada Token
-              </Link>
+              <Link href="/competitions">Competitions</Link>
             </p>
           </div>
         </div>
