@@ -86,6 +86,16 @@ export default function Programmer() {
             >
               <Link href="https://twitter.com/panth_art">Twitter</Link>
             </span>
+            ,{" "}
+            <span
+              style={{
+                fontWeight: "bold",
+                textDecoration: "underline",
+                color: "#2e3192",
+              }}
+            >
+              <Link href="https://discord.gg/uuvbs9DJ7H">Discord</Link>
+            </span>
             , and{" "}
             <span
               style={{
