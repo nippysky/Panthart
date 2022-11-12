@@ -3,7 +3,7 @@ import Image from "next/image";
 function TeamCard(props: any): any {
   const { image, title, name } = props;
   return (
-    <div className="w-full text-center lg:text-left lg:w-1/3">
+    <div className="w-full text-center lg:text-left">
       <Image
         src={image}
         alt={name}

@@ -1,5 +1,4 @@
 import { FaAngleDoubleUp } from "react-icons/fa";
-
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
@@ -29,7 +28,7 @@ export default function BackToTheTop() {
   if (!mounted) return null;
 
   return (
-    <div>
+    <div className="z-0">
       {backToTheTop && (
         <div
           onClick={scrollUp}
