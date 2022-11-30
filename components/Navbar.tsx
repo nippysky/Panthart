@@ -11,6 +11,9 @@ import apps from "../public/HeadFoot/Apps.svg";
 import appsGold from "../public/HeadFoot/AppsGold.svg";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
+import ProductsCard from "./ProductsCard";
+
+import NFComradesIcon from "../public/Products/NFComradesIcon.svg";
 
 function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -148,7 +151,7 @@ function Navbar() {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: false }}
           transition={{ duration: 1 }}
-          className="fixed bg-white dark:bg-black inset-0 z-50 h-screen overflow-hidden flex px-5 lg:px-20"
+          className="fixed bg-white dark:bg-black inset-0 z-50 w-full px-5 lg:px-20"
         >
           <div className="w-full h-[50px] flex justify-between items-center text-royal dark:text-gold font-semibold">
             {/* TITlE */}
@@ -174,6 +177,14 @@ function Navbar() {
             </div>
             {/* END OF CLOSE BUTTON */}
           </div>
+
+          <section className="w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-10 my-10">
+            <ProductsCard
+              link={"https://nfcomrades.com"}
+              image={NFComradesIcon}
+              name={"Non-Fungible Comrades"}
+            />
+          </section>
         </motion.section>
       )}
       {/* END OF PRODUCTS MENU MODAL */}
