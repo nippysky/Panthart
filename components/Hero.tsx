@@ -31,7 +31,7 @@ function Hero() {
         {/* Button */}
         <motion.div
           className="text-center"
-          initial={{ x: -2000, opacity: 0 }}
+          initial={{ x: -200, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1 }}
         >
@@ -45,7 +45,7 @@ function Hero() {
         {/* Social Links */}
         <motion.div
           className="text-center flex mt-20 justify-center gap-10 text-royal dark:text-gold"
-          initial={{ x: 2000, opacity: 0 }}
+          initial={{ x: 200, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1 }}
         >
